@@ -11,7 +11,7 @@ repository = "https://github.com/rambip/rust-web-markdown"
 [dependencies]
 web-sys = { version = "0.3.61", features = ["MouseEvent"] }
 syntect = { version = "5.0.0", default-features = false, features = [
-    "default-fancy",
+    "default-onig",
 ] }
 lazy_static = "1.4.0"
 pulldown-cmark = "0.13.0"
