@@ -14,7 +14,7 @@ syntect = { version = "5.0.0", default-features = false, features = [
     "default-onig",
 ] }
 lazy_static = "1.4.0"
-pulldown-cmark = "0.13.0"
+pulldown-cmark = { version = "0.13", default-features = false, features = ["html"] }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 katex = { version = "0.4", default-features = false, features = [
